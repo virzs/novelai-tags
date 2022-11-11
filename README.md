@@ -13,7 +13,19 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+打开 [http://localhost:3200](http://localhost:3000) 查看页面
+
+## 开发
+
+### 数据
+
+``` bash
+cd ./services
+
+yarn start:dev
+```
+
+打开 [http://localhost:3201/doc](http://localhost:3201/doc) 查看接口文档
 
 ## 相关资源
 
