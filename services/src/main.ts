@@ -2,7 +2,7 @@
  * @Author: vir virs98@outlook.com
  * @Date: 2022-11-08 17:54:22
  * @LastEditors: vir virs98@outlook.com
- * @LastEditTime: 2022-11-14 17:54:54
+ * @LastEditTime: 2022-11-15 20:40:40
  */
 import { NestFactory } from '@nestjs/core';
 import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
@@ -25,6 +25,6 @@ async function bootstrap() {
   // 全局默认参数验证
   app.useGlobalPipes(new DefaultDTOValidationPipe());
 
-  await app.listen(3200);
+  await app.listen(3202);
 }
 bootstrap();

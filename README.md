@@ -13,7 +13,7 @@ npm run dev
 yarn dev
 ```
 
-打开 [http://localhost:3200](http://localhost:3000) 查看页面
+打开 [http://localhost:3200](http://localhost:3201) 查看页面
 
 ## 开发
 
@@ -25,7 +25,7 @@ cd ./services
 yarn start:dev
 ```
 
-打开 [http://localhost:3201/doc](http://localhost:3201/doc) 查看接口文档
+打开 [http://localhost:3201/doc](http://localhost:3202/doc) 查看接口文档
 
 ## 相关资源
 

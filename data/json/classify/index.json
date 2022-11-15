@@ -1,0 +1,52 @@
+[
+  { "name": "时间", "description": "" },
+  { "name": "天气", "description": "" },
+  { "name": "场景", "description": "" },
+  { "name": "风格", "description": "" },
+  {
+    "name": "人物",
+    "description": "",
+    "children": [
+      { "name": "种族", "description": "" },
+      { "name": "性别", "description": "" },
+      { "name": "数量", "description": "" },
+      {
+        "name": "头发",
+        "description": "",
+        "children": [
+          {
+            "name": "发型",
+            "description": "",
+            "chilren": [
+              { "name": "辫子", "description": "" },
+              { "name": "前发", "description": "" },
+              { "name": "后发", "description": "" }
+            ]
+          },
+          { "name": "长度", "description": "" },
+          { "name": "颜色", "description": "" }
+        ]
+      },
+      {
+        "name": "五官",
+        "description": "",
+        "children": [
+          {
+            "name": "眼睛",
+            "description": "",
+            "children": [
+              { "name": "颜色", "description": "" },
+              { "name": "大小", "description": "" },
+              { "name": "状态", "description": "" }
+            ]
+          },
+          { "name": "耳朵", "description": "" },
+          { "name": "眉毛", "description": "" },
+          { "name": "鼻子", "description": "" },
+          { "name": "嘴巴", "description": "" },
+          { "name": "其他", "description": "" }
+        ]
+      }
+    ]
+  }
+]
